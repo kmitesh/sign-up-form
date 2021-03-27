@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+
+
+
+/** ------------------------------------------  **/
+body{
+
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#container{
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align:center;
+  padding:10px;
+  width:80%;
+  height:70%;
+  background-color: rgb(251, 128, 107);
+}
+
+#h1{
+  font-size:80px;
+   color:white;
+}
+
+
+form{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+
+}
+
+.form-contents{
+  margin: 10px;
+}
+
+p{
+  color:white;
+}
+
+i{
+  color:white;
+
+}
+
+
+input{
+  text-align:center;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+button{
+margin-left: 5px;
+}
+
+
+/** MEDIA BREAK POINTS **/
+@media (max-width: 575.98px) {
+
+
+
+}
+
+
+@media (max-width: 767.98px) {
+
+form{
+  flex-direction: column;
+}
+
+
+#container{
+  width:100%;
+}
+
+#h1{
+  font-size: 50px;
+
+}
+
+
+}
+
+
+@media (max-width: 1199.98px) {
+
+  #container{
+    width:100%;
+  }
+
+ }
+
+/** ------------------------------------------  **/
